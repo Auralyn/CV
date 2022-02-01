@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+    <link rel='stylesheet' type='text/css' href='Yannick.css'>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel = "icon" href = 
+			"https://yt3.ggpht.com/j5tlBPX3F4bS826GLmFzPQ-AzBM-fAXCTemzUkuDWrMHWaJGJpCyrI_TT-O2syUjKoTBwM_w=s88-c-k-c0x00ffffff-no-rj" 
+			type = "image/x-icon">
+        <title>curriculum vitae</title>
+    </head>
+    <body>
+        <div class="date">
+            <p id="date"> not working </p>     
+        </div>
+            <div class='console-container'><span id='text'></span><div class='console-underscore' id='console'>&#95;</div></div>
+            <div class="text" id="container">
+            <div id="columRowOne" onclick="showPaper(1)">
+            <section>
+                <h2> Who is Yannick? </h2>
+                <div class="connectedText">
+                <p>Yannick is an ongoing <b>developer</b> currently</p> <p>learning the usage of <a href="https://en.wikipedia.org/wiki/Web_application">Web-Applications.</a></p>
+                </div>
+            </section>
+            <section>
+                <h2>Skills :</h2>
+                    <p>Yannick has <b>knowledge</b> of following things: </p>
+                    <div> 
+                        <p><b>Frontend</b>-Developement : </p>
+                        <table class="text">
+                        <tr>
+                            <td><li><a href="https://en.wikipedia.org/wiki/HTML" target="_blank"> HTML </a></li></td>
+                            <td rowspan="3">
+                                <img src="
+                                    https://th.bing.com/th/id/R.61a8b80b0d5a7e6baaad38e94ee914c2?rik=%2fc%2fAbE6ysFoMUA&riu=http%3a%2f%2fhtmlcssjs.jediupc.com%2fimg%2fhtml-logo.png&ehk=wQL7wfhzJt5NedY8cIfuAtisBUMYIlIjC%2f6aPNSgz5Y%3d&risl=&pid=ImgRaw&r=0&sres=1&sresct=1" 
+                                    class="icon">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><li><a href="https://en.wikipedia.org/wiki/JavaScript" target="_blank"> JavaScript </a></li></td>
+                        </tr>
+                        <tr>
+                            <td><li><a href="https://en.wikipedia.org/wiki/CSS" target="_blank"> CSS </a></li></td>
+                        </tr>
+                        </table>
+
+                        <p><b>Backend</b>-Developement : </p>                         
+                        <table class="text">
+                            <tr>
+                                <td><li><a href="https://en.wikipedia.org/wiki/Java_(programming_language)" target="_blank"> Java </a></li></td>
+                            </tr>
+                            <tr>
+                                <td><li><a href="https://en.wikipedia.org/wiki/C_Sharp_(programming_language)" target="_blank"> C# </a></li></td>
+                            </tr>
+                            <tr>
+                                <td><li><a href="https://en.wikipedia.org/wiki/MySQL" target="_blank"> MySQL </a></li></td>
+                            </tr>
+                            </table>
+                            <br>
+                    </div>
+            </section>
+            </div>
+            <div id="columRowOne" onclick="showPaper(2)">
+            <section>
+                <h2>Education :</h2>
+                <div class="connectedText">
+                    <h3>since <b>2016</b> : </h3>
+                    <h3><a href="https://spg-hom.de/" target="_blank">Saarpfalz-Gymnasium Homburg</a></h3>
+                    <p><li>(Grammar School) Abitur-Exams</li></p>
+                    <p><li>(equivalent of British A-Levels) to be taken in 2024</li></p>
+                </div>
+                <div class="connectedText">
+                    <h3><b>2012 - 2016</b> : </h3>
+                    <h3><a href="https://www.grundschule-waldmohr.de/" target="_blank">Rothenfeldschule Waldmohr</a></h3>
+                    <p><li>Elementary School</li></p>
+                </div>
+            </section>
+            </div>
+            <div id="columRowOne" onclick="showPaper(3)">
+                <section>
+                    <div class="connectedText">
+                        <h2>Non-Developing Skills :</h2>
+                        <h3>Languages :</h3>
+                        <p><li><b id="important">German:</b> native speaker (C2)</li></p>
+                        <p><li><b id="important">English:</b> fluent speaker and writer (C1)</li></p>
+                    </div>
+                    <div class="connectedText">
+                        <h3>Software :</h3>
+                        <p><li>Adobe Premiere Pro</li></p>
+                        <p><li>Blender 3D</li></p>
+                        <p><li>MS Visual Studio Code</li></p>
+                        <p><li>MS Word</li></p>
+                        <p><li>MS Powerpoint</li></p>
+                        <p><li>MS Excel</li></p>
+                    </div>
+                </section>
+            </div>
+            <div id="columRowOne" onclick="showPaper(4)">
+                <section>
+                    <div class="connectedText">
+                        <h2>Interests :</h2>
+                        <h3>Programming :</h3>
+                        <p><li>Developed an own 2D Sprite horror Game in <b id="important">Unity</b></li></p>
+                    </div>
+                    <div class="connectedText">
+                        <h3>Video Making :</h3>
+                        <p><li>Comedic Online <b id="important">Video editing</b> in Adobe Premiere Pro<p> for a Webvideo-Plattform</p></li></p>
+                    </div>
+                </section>
+            </div>
+            <button id="columRowTwo" class="contact" onclick="buttonClick()" title="Click Me!">
+                <section>
+                    <section>
+                        <div class="connectedText">
+                            <h2 id="contactMeText">&#8595; Contact &#8595;</h2>
+                    </section>
+                </section>
+            </button>
+            </div>
+
+            <div id="form" style="display:none;"><h3>Fill out this form below to contact me!</h3>
+                <form action="mailto:yannetion@yahoo.com"
+                method="POST"
+                enctype="multipart/form-data"
+                name="EmailForm">
+                    Name:<br>
+                    <input type="text" size="19" name="Contact-Name" id="inputField"><br><br>
+                    Email:<br>
+                    <input type="email" name="Contact-Email" id="inputField"><br><br> 
+                    Message:<br> 
+                    <textarea name="Contact-Message" rows="10" cols="22" id="inputField">
+                    </textarea><br><br> 
+                    <button type="submit" value="Submit">Send</button>
+                </form>  
+            </div>
+            <div id="backGround" onclick="showPaper()" style="display: none"></div>
+                <div id="paper" style="display: none">
+                    <h2 id="paperHeadline">Test</h2>
+                    <img src="" id="imgPaper">
+                    <textarea rows="30" cols="70" id="paperText"> Something didn't work :( </textarea>
+                    <br>
+                </div>
+        <script src="Yannick.js"></script>
+    </body>
+</html>
