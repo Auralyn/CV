@@ -23,6 +23,7 @@ h1 { color: #ffffff;
     margin: 0 0 58px; }
 
     #mobileButton {
+
         display: none;
     }
 
@@ -552,8 +553,8 @@ button:hover {
     #backGround {
         animation-name: showForm;
         animation-duration: 0.5s;
-        width: auto;
-        height: auto;
+        width: 100%;
+        height: 100%;
         margin: auto;
         background-color: hsla(0, 0%, 0%, 0.5);
         position: fixed;

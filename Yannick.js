@@ -125,7 +125,7 @@ function showPaper(numberColumn) {
   switch(numberColumn) {
     case 1:
       document.getElementById("paperHeadline").innerHTML = "Skills";
-      document.getElementById("paperText").innerHTML = "I started learning programming since I was 9 years old. I have started using Java and wrote a small Game in Eclipse (Space Invaders). Later in School I found out how you actually program and made first very easy programs and websites in HTML and Java. (e.g. Calculator). When I went to they showed me the difference between a programmer and Developer and made my first real Website including HTML, JavaScript and CSS. They also teached me how to learn developing and programming so I could learn it better in the future.";
+      document.getElementById("paperText").innerHTML = "I started learning programming since I was 9 years old. I have started using Java and wrote a small Game in Eclipse (Space Invaders). Later in School I found out how you actually program and made first very easy programs and websites in HTML and Java. (e.g. Calculator).";
       document.getElementById("imgPaper").src = "https://logos-marques.com/wp-content/uploads/2021/03/Java-Logo.png";
       break;
     case 2:
